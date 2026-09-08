@@ -28,7 +28,7 @@ export default function Pricing() {
         <section className="pricing-card pricing-package">
           <h2>Three-tour package</h2>
           <p className="pricing-amount">$99 <span>/ 3 tours</span></p>
-          <p>Save 15% when you book 3 tours. Use them as you find apartments — no need to schedule all three at once. Plus, receive priority hopper availability.</p>
+          <p>Save 15% when you pay for 3 tours up front. Use them as you find apartments — no need to schedule all three at once. Plus, express fees are waived!</p>
           <p>Interested? Email us at <a className="pricing-email" href="mailto:homeyhoppers23@gmail.com">homeyhoppers23@gmail.com</a>.</p>
           <a href="mailto:homeyhoppers23@gmail.com?subject=Three-tour%20package%20inquiry" className="button">Get the package <Arrow diagonal/></a>
         </section>
