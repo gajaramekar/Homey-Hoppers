@@ -34,6 +34,7 @@ export default function Pricing() {
         </section>
       </div>
       <p className="pricing-disclaimer">All tours are subject to availability. Submitting an inquiry does not guarantee a booking; your tour is only confirmed once we confirm availability.</p>
+      <p className="pricing-disclaimer"><strong>Refund policy:</strong> For individual tours, refunds are only issued if the broker cancels the tour or the apartment is rented out before the tour. Proof of the cancellation or rental is required. Package tours are non-refundable. In these cases, with proof, the tour credit is restored instead so you can still book all three tours in your package.</p>
     </main>
   );
 }

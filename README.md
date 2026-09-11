@@ -1,4 +1,4 @@
-# The Homey Hoppers
+# Homey Hoppers
 
 A small, responsive Next.js website built with TypeScript and Tailwind CSS.
 
