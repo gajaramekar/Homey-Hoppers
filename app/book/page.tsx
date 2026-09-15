@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { Arrow, Icon } from '@/components/icons';
 import { BOOKING_FORM_URL, BOOKING_FORM_EMBED_URL } from '@/lib/site';
 
@@ -18,6 +19,7 @@ export default function Book() {
           <span>Submitting an inquiry does not guarantee a booking. Your tour is only confirmed once we confirm availability.</span>
         </p>
         <p className="availability-note"><span><strong>Refund policy:</strong> For individual tours, refunds are only issued if the broker cancels the tour or the apartment is rented out before the tour. Proof of the cancellation or rental is required. Package tours are non-refundable. In these cases, with proof, the tour credit is restored instead so you can still book all three tours in your package.</span></p>
+        <p className="booking-policy-links">Before requesting a tour, please review our <Link href="/terms">Terms &amp; Conditions</Link> and <Link href="/privacy">Privacy Policy</Link>.</p>
         <div className="booking-form-frame">
           <iframe
             className="inquiry-form"
